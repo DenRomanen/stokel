@@ -1,0 +1,27 @@
+.footer {
+  background-color: rgb(16, 39, 71);
+}
+.footer__title {
+  color: #ffffff;
+}
+.footer__place {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__text {
+  color: rgb(65, 123, 141);
+  display: flex;
+  align-items: center;
+}
+.footer___subtitle-text {
+  margin: 0;
+  height: 45px;
+
+  padding-left: 3%;
+
+  display: flex;
+  align-items: center;
+
+  border-top: 1px solid rgb(65, 123, 141);
+  color: rgb(65, 123, 141);
+}

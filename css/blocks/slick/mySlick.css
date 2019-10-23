@@ -1,0 +1,27 @@
+.slick__slaid {
+  position: relative; }
+
+.slick__img {
+  width: 100%;
+  z-index: 2; }
+
+.slick__info {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  z-index: 4; }
+
+.slick__info_title {
+  margin: 0;
+  font-size: 35px;
+  color: #ffffff; }
+
+.slick__info_subtitle {
+  margin: 18px 0 0 0;
+  font-size: 25px;
+  color: #fe9f38; }
+
+.slick__info_subtitle-img2 {
+  margin: 18px 0 0 0;
+  font-size: 30px;
+  color: #ffffff; }

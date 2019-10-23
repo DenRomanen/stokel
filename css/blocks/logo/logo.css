@@ -1,0 +1,25 @@
+@import url("./logoButton/logo_button.css");
+.logo {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  justify-content: space-between; }
+
+.logo__img {
+  margin-left: 50px;
+  width: 260px;
+  height: 100px;
+  background-image: url(/images/logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.logo__contacts {
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  color: #102747;
+  font-size: 20px;
+  align-items: center; }
+
+.contacts_phone {
+  margin: 20px; }

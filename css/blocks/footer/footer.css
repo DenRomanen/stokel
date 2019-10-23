@@ -1,0 +1,23 @@
+.footer {
+  background-color: #102747; }
+
+.footer__title {
+  color: #ffffff; }
+
+.footer__place {
+  display: flex;
+  justify-content: space-around; }
+
+.footer__text {
+  color: #417b8d;
+  display: flex;
+  align-items: center; }
+
+.footer___subtitle-text {
+  margin: 0;
+  height: 45px;
+  padding-left: 3%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #417b8d;
+  color: #417b8d; }

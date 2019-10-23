@@ -1,0 +1,13 @@
+.shops__title {
+  font-size: 30px;
+  text-align: center;
+  color: #102747; }
+
+.shops__slick {
+  margin: 10px auto;
+  width: 70%; }
+
+.slick__img-shop {
+  margin: 0 auto;
+  width: 90%;
+  height: 300px; }
