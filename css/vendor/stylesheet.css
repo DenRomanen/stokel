@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./fonts/3976.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./fonts/Ubuntu-B.ttf");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./fonts/ubuntu_[allfont.ru].ttf");
+  font-weight: 800;
+  font-style: italic; }
