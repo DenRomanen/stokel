@@ -1,10 +1,4 @@
 .brends {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 2vw;
-  justify-content: center;
-  align-items: center;
-}
-
-.brends__img {
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }

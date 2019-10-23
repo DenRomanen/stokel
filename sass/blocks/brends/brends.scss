@@ -1,12 +1,5 @@
 .brends {
-  display: grid;
-
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2vw;
-  border: 1px solid red;
-  background-color: #2196f3;
-}
-.brends__img {
-  border: 1px solid red;
-  color: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
