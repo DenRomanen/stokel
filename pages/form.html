@@ -9,20 +9,18 @@
   </head>
   <body>
     <section class="logo">
-      <img src="../images/logo.jpg" alt="" class="logo__img" />
+      <a class="logo__img" href="../index.html"></a>
+      <!-- <img src="../images/logo.jpg" alt="" class="logo__img" />-->
     </section>
     <section class="contact">
+      <a class="contact__arrow" href="../index.html"><a>
       <p class="contact__text">Контакты</p>
     </section>
 
     <section class="form">
       <h1>ОТПРАВИТЬ СООБЩЕНИЕ</h1>
 
-      <form
-        action="https://mailthis.to/mailstokel@mail.ru"
-        method="POST"
-        encType="multipart/form-data"
-      >
+      <form action="https://formspree.io/xlerbeya" method="POST">
         <div class="form__all">
           <div class="form__input-text">
             <p>Введите имя</p>
@@ -30,13 +28,15 @@
               class="form__input-name"
               type="text"
               name="name"
-              placeholder=""
+              pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
+              placeholder="Имя"
             />
             <p>адрес E-mail</p>
             <input
               class="form__input-name"
               type="email"
               name="email"
+              pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})"
               placeholder="you@mail.com"
             />
             <p>телефон</p>
@@ -44,29 +44,31 @@
               class="form__input-name"
               type="text"
               name="phone"
+              pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
               placeholder="+1 (234) 567-7890"
             />
             <p>Прикрепить файл</p>
-            <input
-              class="form__input-name"
-              type="file"
-              name="file"
-              placeholder=""
-            />
+            <label class="custom-file-upload">
+              <input type="file" name="file" placeholder="" />
+              <i class="fa fa-cloud-upload"></i>
+            </label>
           </div>
           <div class="form__textarea">
             <p>Сообщение</p>
             <textarea name="message" placeholder=""></textarea>
           </div>
         </div>
-        <input
+
+        <button
           type="submit"
           name="submit"
-          value="Отправить"
-          class="btn btn-primary"
-        />
+          class="custom-btn2 btn-12 btn btn-primary"
+        >
+          ОТПРАВИТЬ
+        </button>
       </form>
     </section>
+
     <script src="../scripts/mail.js"></script>
   </body>
 </html>

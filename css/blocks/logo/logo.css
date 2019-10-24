@@ -5,9 +5,14 @@
   align-items: center; }
 
 .logo__img {
+  width: 260px;
+  height: 100px;
   margin-left: 1%;
   width: 260px;
-  height: 100px; }
+  height: 100px;
+  background-image: url(/images/logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .logo__contacts {
   width: 90%;
