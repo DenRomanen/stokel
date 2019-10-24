@@ -11,16 +11,19 @@
   position: relative;
   display: inline-block;
   color: rgb(16, 39, 71);
+  text-decoration: none;
 }
 
 .btn-4 {
   width: 230px;
-  height: 45px;
+  height: 40px;
   line-height: 42px;
   padding: 0;
   border: none;
 }
 .btn-4 span {
+  text-align: center;
+
   position: relative;
   display: block;
   width: 100%;

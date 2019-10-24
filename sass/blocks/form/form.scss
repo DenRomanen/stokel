@@ -1,0 +1,28 @@
+.form {
+  margin: 20px auto;
+  width: 90%;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 0 10px rgba(92, 90, 90, 0.5);
+}
+.form__all {
+  display: flex;
+}
+.form__input-text {
+  display: flex;
+  flex-direction: column;
+}
+.form__input-name {
+  height: 35px;
+}
+.form__textarea {
+  margin-left: 40px;
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 215px;
+}

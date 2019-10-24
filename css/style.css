@@ -6,6 +6,8 @@
 @import url("./blocks/footer/footer.css");
 @import url("./blocks/shops/shops.css");
 @import url("./blocks/brends/brends.css");
+@import url("./blocks/contact/contact.css");
+@import url("./blocks/form/form.css");
 body {
   font-family: "Ubuntu"; }
 
