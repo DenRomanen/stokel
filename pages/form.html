@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Стокел</title>
+  </head>
+  <body>
+    <section class="logo">
+      <img src="../images/logo.jpg" alt="" class="logo__img" />
+    </section>
+    <section class="contact">
+      <p class="contact__text">Контакты</p>
+    </section>
+
+    <section class="form">
+      <h1>ОТПРАВИТЬ СООБЩЕНИЕ</h1>
+
+      <form
+        action="https://mailthis.to/mailstokel@mail.ru"
+        method="POST"
+        encType="multipart/form-data"
+      >
+        <div class="form__all">
+          <div class="form__input-text">
+            <p>Введите имя</p>
+            <input
+              class="form__input-name"
+              type="text"
+              name="name"
+              placeholder=""
+            />
+            <p>адрес E-mail</p>
+            <input
+              class="form__input-name"
+              type="email"
+              name="email"
+              placeholder="you@mail.com"
+            />
+            <p>телефон</p>
+            <input
+              class="form__input-name"
+              type="text"
+              name="phone"
+              placeholder="+1 (234) 567-7890"
+            />
+            <p>Прикрепить файл</p>
+            <input
+              class="form__input-name"
+              type="file"
+              name="file"
+              placeholder=""
+            />
+          </div>
+          <div class="form__textarea">
+            <p>Сообщение</p>
+            <textarea name="message" placeholder=""></textarea>
+          </div>
+        </div>
+        <input
+          type="submit"
+          name="submit"
+          value="Отправить"
+          class="btn btn-primary"
+        />
+      </form>
+    </section>
+    <script src="../scripts/mail.js"></script>
+  </body>
+</html>
