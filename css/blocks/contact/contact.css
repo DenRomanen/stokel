@@ -12,6 +12,6 @@
   margin-left: 4%;
   height: 20px;
   width: 20px;
-  background-image: url(/images/left.png);
+  background-image: url(../images/left.png);
   background-size: contain;
   background-repeat: no-repeat; }
