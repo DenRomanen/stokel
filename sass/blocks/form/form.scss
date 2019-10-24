@@ -1,3 +1,4 @@
+@import url("./button-submit/form__button-submit.css");
 .form {
   margin: 20px auto;
   width: 90%;
@@ -25,4 +26,15 @@
 textarea {
   width: 100%;
   height: 215px;
+}
+
+/*input[type="file"] {
+  //display: none;
+}*/
+.custom-file-upload {
+  margin: 10px 0 20px 0;
+  border: 1px solid grey;
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
 }
