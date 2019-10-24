@@ -6,7 +6,7 @@
 
 /* Icons */
 @font-face {
-  font-family: "Ubuntu";
+  font-family: "slick";
   font-weight: normal;
   font-style: normal;
 
@@ -63,7 +63,7 @@
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: "Ubuntu";
+  font-family: "slick";
   font-size: 60px;
   line-height: 1;
 
@@ -159,7 +159,7 @@
   opacity: 1;
 }
 .slick-dots li button:before {
-  font-family: "Ubuntu";
+  font-family: "slick";
   font-size: 6px;
   line-height: 20px;
 
