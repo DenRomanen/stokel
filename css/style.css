@@ -8,6 +8,7 @@
 @import url("./blocks/brends/brends.css");
 @import url("./blocks/contact/contact.css");
 @import url("./blocks/form/form.css");
+@import url("./blocks/thankYou/thankYou.css");
 body {
   margin: 0 auto;
   max-width: 1280px;
