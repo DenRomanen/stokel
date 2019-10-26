@@ -1,4 +1,10 @@
 .brends {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column; }
+
+.brends__icon {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }

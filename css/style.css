@@ -9,9 +9,14 @@
 @import url("./blocks/contact/contact.css");
 @import url("./blocks/form/form.css");
 body {
+  margin: 0 auto;
+  max-width: 1280px;
+  min-width: 1024px;
   font-family: "Ubuntu"; }
 
-/*div,
+/*
+div,
+a,
 button {
   outline: 1px solid red;
 }*/

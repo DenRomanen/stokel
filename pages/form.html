@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Стокел</title>
+    <title>Стокел - Всё для ремонта</title>
   </head>
   <body>
     <section class="logo">
-      <a class="logo__img" href="../index.html"></a>
-      <!-- <img src="../images/logo.jpg" alt="" class="logo__img" />-->
+      <a class="logo__img logo__img-form" href="../index.html"></a>      
     </section>
+
     <section class="contact">
       <a class="contact__arrow" href="../index.html"><a>
       <p class="contact__text">Контакты</p>
@@ -23,7 +23,7 @@
       <form action="https://formspree.io/xlerbeya" method="POST">
         <div class="form__all">
           <div class="form__input-text">
-            <p>Введите имя</p>
+            <p class="form__input-subtitle">Введите имя</p>
             <input
               class="form__input-name"
               type="text"
@@ -31,7 +31,7 @@
               pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
               placeholder="Имя"
             />
-            <p>адрес E-mail</p>
+            <p class="form__input-subtitle">E-mail</p>
             <input
               class="form__input-name"
               type="email"
@@ -39,22 +39,22 @@
               pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})"
               placeholder="you@mail.com"
             />
-            <p>телефон</p>
+            <p class="form__input-subtitle">Телефон</p>
             <input
               class="form__input-name"
               type="text"
               name="phone"
               pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
-              placeholder="+1 (234) 567-7890"
+              placeholder="+7 (XXX) XXX-XXXX"
             />
-            <p>Прикрепить файл</p>
+            <p class="form__input-subtitle">Прикрепить файл</p>
             <label class="custom-file-upload">
               <input type="file" name="file" placeholder="" />
               <i class="fa fa-cloud-upload"></i>
             </label>
           </div>
           <div class="form__textarea">
-            <p>Сообщение</p>
+            <p class="form__input-subtitle">Сообщение</p>
             <textarea name="message" placeholder=""></textarea>
           </div>
         </div>
