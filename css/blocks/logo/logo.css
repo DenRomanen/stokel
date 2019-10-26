@@ -2,19 +2,19 @@
 .logo {
   display: flex;
   height: 140px;
-  align-items: center;
-}
+  align-items: center; }
 
 .logo__img {
-  width: 260px;
-  height: 100px;
   margin-left: 1%;
-  width: 260px;
+  width: 50%;
   height: 100px;
   background-image: url(../../../images/logo.jpg);
+  background-position: center;
   background-size: contain;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
+
+.logo__img-form {
+  width: 450px; }
 
 .logo__contacts {
   width: 90%;
@@ -22,11 +22,9 @@
   justify-content: space-between;
   align-items: center;
   color: #102747;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .contacts_phone {
   margin: 20px;
   color: #102747;
-  text-decoration: none;
-}
+  text-decoration: none; }
