@@ -19,14 +19,14 @@
 
     <section class="form">
       <h1>ОСТАВИТЬ ЗАЯВКУ</h1>
-      <form>
+      <form action="mail.php" method="POST" enctype="multipart/form-data">
         <div class="form__all">
           <div class="form__input-text">
             <p class="form__input-subtitle">Введите имя</p>
             <input
               class="form__input-name"
               type="text"
-              name="name"
+              name="user_name"
               pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
               placeholder="Имя"
             />
@@ -34,27 +34,26 @@
             <input
               class="form__input-name"
               type="email"
-              name="email"
-              pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,6})"
+              name="user_email"
               placeholder="you@mail.com"
             />
             <p class="form__input-subtitle">Телефон</p>
             <input
               class="form__input-name"
               type="text"
-              name="phone"
+              name="user_phone"
               pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
               placeholder="+7 (XXX) XXX-XXXX"
             />
             <p class="form__input-subtitle">Прикрепить файл</p>
             <label class="custom-file-upload">
-              <input type="file" name="file" placeholder="" />
+              <input type="file" name="upload" placeholder="" />
               <i class="fa fa-cloud-upload"></i>
             </label>
           </div>
           <div class="form__textarea">
             <p class="form__input-subtitle">Сообщение</p>
-            <textarea name="message" placeholder=""></textarea>
+            <textarea name="message" name="text" placeholder=""></textarea>
           </div>
         </div>
 
@@ -89,6 +88,7 @@
         </div>
       </div>
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   </body>
 </html>
-<!-- <form action="https://formspree.io/xlerbeya" method="POST">-->
