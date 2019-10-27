@@ -19,41 +19,63 @@
 
     <section class="form">
       <h1>ОСТАВИТЬ ЗАЯВКУ</h1>
-      <form action="mail.php" method="POST" enctype="multipart/form-data">
+      <form
+        action="mail.php"
+        method="POST"
+        enctype="multipart/form-data"
+        name="order"
+      >
         <div class="form__all">
           <div class="form__input-text">
             <p class="form__input-subtitle">Введите имя</p>
-            <input
-              class="form__input-name"
-              type="text"
-              name="user_name"
-              pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
-              placeholder="Имя"
-            />
+            <label>
+              <input
+                class="form__input-name"
+                type="text"
+                name="user_name"
+                pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
+                minlength="2"
+                placeholder="Имя"
+                required
+              />
+              <span class="error-name" style="visibility: hidden"
+                >Введите имя</span
+              >
+            </label>
             <p class="form__input-subtitle">E-mail</p>
-            <input
-              class="form__input-name"
-              type="email"
-              name="user_email"
-              placeholder="you@mail.com"
-            />
+            <label>
+              <input
+                class="form__input-name"
+                type="email"
+                name="user_email"
+                placeholder="you@mail.com"
+              />
+              <span class="error-email" style="visibility: hidden"
+                >Введите email</span
+              >
+            </label>
             <p class="form__input-subtitle">Телефон</p>
-            <input
-              class="form__input-name"
-              type="text"
-              name="user_phone"
-              pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
-              placeholder="+7 (XXX) XXX-XXXX"
-            />
+            <label>
+              <input
+                class="form__input-name"
+                type="text"
+                name="user_phone"
+                pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
+                placeholder="+7 (XXX) XXX-XXXX"
+                required
+              />
+              <span class="error-phone" style="visibility: hidden"
+                >Введите телефон +7 (XXX) XXX XXXX</span
+              >
+            </label>
             <p class="form__input-subtitle">Прикрепить файл</p>
             <label class="custom-file-upload">
               <input type="file" name="upload" placeholder="" />
-              <i class="fa fa-cloud-upload"></i>
             </label>
           </div>
           <div class="form__textarea">
             <p class="form__input-subtitle">Сообщение</p>
-            <textarea name="message" name="text" placeholder=""></textarea>
+            <textarea name="message" placeholder=""></textarea>
           </div>
         </div>
 
@@ -90,5 +112,6 @@
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../scripts/form.js"></script>
   </body>
 </html>

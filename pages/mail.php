@@ -33,7 +33,7 @@ $mail->Subject = 'Заявка с сайта';
 $mail->Body    = 'Заявку оставил: '.$name .
 '<br>Телефон: ' .$phone .
 '<br>Email: ' .$email . 
-'Сообщение: ' .$textsend; 
+'<br>Сообщение: ' .$textsend; 
 
 $mail->AltBody = '';
 
