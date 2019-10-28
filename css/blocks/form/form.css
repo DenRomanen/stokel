@@ -31,9 +31,6 @@ textarea {
   height: 230px;
   resize: none; }
 
-/*input[type="file"] {
-  //display: none;
-}*/
 .custom-file-upload {
   margin: 0px 0 20px 0;
   display: inline-block;
@@ -50,3 +47,25 @@ label {
   display: flex;
   flex-direction: column;
   color: red; }
+
+@media screen and (max-width: 425px) {
+  .form {
+    width: 90%;
+    padding: 8px;
+    box-shadow: none; }
+  .form__all {
+    flex-direction: column; }
+  .form__input-subtitle {
+    margin: 0;
+    padding: 8px; }
+  .form__input-name {
+    padding-left: 5px;
+    height: 35px; }
+  .form__textarea {
+    margin: 0 0 20px 0;
+    width: 100%; }
+  textarea {
+    padding-left: 5px;
+    width: 98%;
+    height: 150px;
+    resize: none; } }
