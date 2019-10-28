@@ -1,5 +1,9 @@
 .footer {
+  width: 100%;
   margin-top: 80px;
+  background-color: #102747; }
+
+.body__footer {
   background-color: #102747; }
 
 .footer__title {
