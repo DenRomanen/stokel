@@ -8,105 +8,110 @@
     <title>Стокел - Всё для ремонта</title>
   </head>
   <body>
-    <section class="logo">
-      <a class="logo__img logo__img-form" href="../index.html"></a>
-    </section>
+    <div class="body">
+      <section class="logo">
+        <a class="logo__img logo__img-form" href="../index.html"></a>
+      </section>
 
-    <section class="contact">
-      <a href="../index.html" class="contact__arrow"></a>
-      <p class="contact__text">Контакты</p>
-    </section>
+      <section class="contact">
+        <a href="../index.html" class="contact__arrow"></a>
+        <p class="contact__text">Контакты</p>
+      </section>
 
-    <section class="form">
-      <h1>ОСТАВИТЬ ЗАЯВКУ</h1>
-      <form
-        action="mail.php"
-        method="POST"
-        enctype="multipart/form-data"
-        name="order"
-      >
-        <div class="form__all">
-          <div class="form__input-text">
-            <p class="form__input-subtitle">Введите имя</p>
-            <label>
-              <input
-                class="form__input-name"
-                type="text"
-                name="user_name"
-                pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
-                minlength="2"
-                placeholder="Имя"
-                required
-              />
-              <span class="error-name" style="visibility: hidden"
-                >Введите имя</span
-              >
-            </label>
-            <p class="form__input-subtitle">E-mail</p>
-            <label>
-              <input
-                class="form__input-name"
-                type="email"
-                name="user_email"
-                placeholder="you@mail.com"
-              />
-              <span class="error-email" style="visibility: hidden"
-                >Введите email</span
-              >
-            </label>
-            <p class="form__input-subtitle">Телефон</p>
-            <label>
-              <input
-                class="form__input-name"
-                type="text"
-                name="user_phone"
-                pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
-                placeholder="+7 (XXX) XXX-XXXX"
-                required
-              />
-              <span class="error-phone" style="visibility: hidden"
-                >Введите телефон +7 (XXX) XXX XXXX</span
-              >
-            </label>
-            <p class="form__input-subtitle">Прикрепить файл</p>
-            <label class="custom-file-upload">
-              <input type="file" name="upload" placeholder="" />
-            </label>
-          </div>
-          <div class="form__textarea">
-            <p class="form__input-subtitle">Сообщение</p>
-            <textarea name="message" placeholder=""></textarea>
-          </div>
-        </div>
-
-        <button
-          type="submit"
-          name="submit"
-          class="custom-btn2 btn-12 btn btn-primary"
+      <section class="form">
+        <h1>ОСТАВИТЬ ЗАЯВКУ</h1>
+        <form
+          action="mail.php"
+          method="POST"
+          enctype="multipart/form-data"
+          name="order"
         >
-          ОТПРАВИТЬ
-        </button>
-      </form>
-    </section>
+          <div class="form__all">
+            <div class="form__input-text">
+              <p class="form__input-subtitle">Введите имя</p>
+              <label>
+                <input
+                  class="form__input-name"
+                  type="text"
+                  name="user_name"
+                  pattern="(([А-ЯЁ][а-я]*)([-]?[А-ЯЁ][а-я]*)?)"
+                  minlength="2"
+                  placeholder="Имя"
+                  required
+                />
+                <span class="error-name" style="visibility: hidden"
+                  >Введите имя</span
+                >
+              </label>
+              <p class="form__input-subtitle">E-mail</p>
+              <label>
+                <input
+                  class="form__input-name"
+                  type="email"
+                  name="user_email"
+                  placeholder="you@mail.com"
+                />
+                <span class="error-email" style="visibility: hidden"
+                  >Введите email</span
+                >
+              </label>
+              <p class="form__input-subtitle">Телефон</p>
+              <label>
+                <input
+                  class="form__input-name"
+                  type="text"
+                  name="user_phone"
+                  pattern="([/+]?\d[\(]?\s?\d{3}[\)]?\s?[\-]?\d{3}[\-]?\d{2}[\-]?\d{2})"
+                  placeholder="+7 (XXX) XXX-XXXX"
+                  required
+                />
+                <span class="error-phone" style="visibility: hidden"
+                  >Введите телефон +7 (XXX) XXX XXXX</span
+                >
+              </label>
+              <p class="form__input-subtitle">Прикрепить файл</p>
+              <label class="custom-file-upload">
+                <input type="file" name="upload" placeholder="" />
+              </label>
+            </div>
+            <div class="form__textarea">
+              <p class="form__input-subtitle">Сообщение</p>
+              <textarea name="message" placeholder=""></textarea>
+            </div>
+          </div>
 
-    <section class="footer">
-      <div class="footer__place">
-        <p class="footer__title">
-          &copy;2019 СТОКЕЛ - Всё для ремонта
-        </p>
-        <div class="footer__text-address">
-          <p class="footer__text">
-            Москва, г. Железнодорожный, ул. Советская 33, пав. 61
-          </p>
-          <p class="footer__text">
-            Москва, г. Люберцы, ул. Инициативная, 7Б пав. 1
-          </p>
-        </div>
-        <div>
-          <a href="tel:+79266735296" class="footer__text">8 (926) 673-52-96</a>
-          <a href="mailto:gica80@mail.ru" class="footer__text"
-            >gica80@mail.ru</a
+          <button
+            type="submit"
+            name="submit"
+            class="custom-btn2 btn-12 btn btn-primary"
           >
+            ОТПРАВИТЬ
+          </button>
+        </form>
+      </section>
+    </div>
+    <section class="footer">
+      <div class="body body__footer">
+        <div class="footer__place">
+          <p class="footer__title">
+            &copy;2019 СТОКЕЛ - Всё для ремонта
+          </p>
+          <div class="footer__text-address">
+            <p class="footer__text">
+              Москва, г. Железнодорожный, ул. Советская 33, пав. 61
+            </p>
+            <p class="footer__text">
+              Москва, г. Люберцы, ул. Инициативная, 7Б пав. 1
+            </p>
+          </div>
+          <div>
+            <a href="tel:+79266735296" class="footer__text"
+              >8 (926) 673-52-96</a
+            >
+            <a href="mailto:gica80@mail.ru" class="footer__text"
+              >gica80@mail.ru</a
+            >
+          </div>
         </div>
       </div>
     </section>
