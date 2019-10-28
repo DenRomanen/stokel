@@ -71,7 +71,10 @@
               </label>
               <p class="form__input-subtitle">Прикрепить файл</p>
               <label class="custom-file-upload">
-                <input type="file" name="upload" placeholder="" />
+                <input type="file" name="upload" accept="image/*" />
+                <span class="error-file" style="visibility: hidden"
+                  >Файл не должен привышать 10 Мб</span
+                >
               </label>
             </div>
             <div class="form__textarea">
@@ -84,6 +87,7 @@
             type="submit"
             name="submit"
             class="custom-btn2 btn-12 btn btn-primary"
+            disabled
           >
             ОТПРАВИТЬ
           </button>

@@ -15,6 +15,10 @@
   border: 2px solid #aca8a8;
   z-index: 1; }
 
+.btnDisabled {
+  border: 2px solid red;
+  z-index: 1; }
+
 .btn-12:after {
   position: absolute;
   content: "";
