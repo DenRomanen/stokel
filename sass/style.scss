@@ -17,10 +17,10 @@
 
   font-family: "Ubuntu";
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .body {
-    max-width: 425px;
-    min-width: 375px;
+    max-width: 576px;
+    min-width: 320px;
   }
 }
 

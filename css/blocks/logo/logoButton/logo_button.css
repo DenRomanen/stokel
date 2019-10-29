@@ -76,3 +76,18 @@
 
 .btn-4 span:hover:after {
   width: 100%; }
+
+@media screen and (max-width: 425px) {
+  .btn-4 {
+    width: 180px; } }
+
+@media screen and (max-width: 375px) {
+  .logo_button {
+    font-size: 12px; }
+  .btn-4 {
+    height: 30px;
+    line-height: 32px; } }
+
+@media screen and (max-width: 320px) {
+  .btn-4 {
+    width: 160px; } }

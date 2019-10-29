@@ -15,6 +15,27 @@
   width: 90%;
   height: 350px; }
 
+@media screen and (max-width: 576px) {
+  /*.shops {
+    //  display: none;
+  }*/
+  .shops__slick {
+    width: 90%; }
+  .slick__img-shop {
+    height: 220px; } }
+
+@media screen and (max-width: 500px) {
+  .slick__img-shop {
+    height: 180px; } }
+
 @media screen and (max-width: 425px) {
-  .shops {
-    display: none; } }
+  .slick__img-shop {
+    height: 150px; } }
+
+@media screen and (max-width: 375px) {
+  .slick__img-shop {
+    height: 130px; } }
+
+@media screen and (max-width: 320px) {
+  .slick__img-shop {
+    height: 110px; } }
