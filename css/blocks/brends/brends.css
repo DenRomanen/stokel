@@ -8,3 +8,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+@media screen and (max-width: 425px) {
+  .brends__img-container {
+    width: 45%; }
+  .brends__img {
+    width: 130px; } }

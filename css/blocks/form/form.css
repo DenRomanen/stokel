@@ -48,7 +48,7 @@ label {
   flex-direction: column;
   color: red; }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .form {
     width: 90%;
     padding: 8px;
@@ -69,3 +69,7 @@ label {
     width: 98%;
     height: 150px;
     resize: none; } }
+
+@media screen and (max-width: 330px) {
+  .form {
+    width: 95%; } }

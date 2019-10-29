@@ -5,9 +5,10 @@
   align-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .thankYou {
     margin: 30px auto;
     text-align: center;
+    font-size: 15px;
   }
 }

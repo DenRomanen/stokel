@@ -184,7 +184,7 @@
   color: black;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .slick-prev:before,
   .slick-next:before {
     font-size: 30px;
@@ -193,5 +193,8 @@
   .slick-next {
     width: 20px;
     height: 20px;
+  }
+  .slick-next {
+    right: 23px;
   }
 }

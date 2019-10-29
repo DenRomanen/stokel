@@ -39,13 +39,34 @@
   .footer__title {
     font-size: 15px; } }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
   .footer__place {
     height: auto;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 20px; }
-  .footer__text {
-    font-size: 14px; }
   .footer__title {
-    font-size: 20px; } }
+    margin-top: 20px;
+    font-size: 20px; }
+  .footer__text-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer__text {
+    font-size: 14px;
+    text-align: center; }
+  .footer__text-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .footer_button {
+    font-size: 15px; } }
+
+@media screen and (max-width: 375px) {
+  .footer__title {
+    font-size: 15px; }
+  .footer__text-address {
+    width: 300px; }
+  .footer__text {
+    font-size: 14px; } }
